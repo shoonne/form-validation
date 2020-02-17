@@ -1,0 +1,113 @@
+body {
+  background-color: #F0F8FA;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 15%;
+  border-radius: 50%;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 9px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 9px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  width: 100%;
+  background-color: #37A8ED;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button[type=submit]:hover {
+  background-color: rgb(72, 181, 248);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+div {
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.inputLabel {
+  font-family: 'Roboto', sans-serif;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 18px;
+}
+
+.selectdiv {
+position: relative;
+}
+
+.selectdiv:after {
+    content: '\f078';
+    font: normal normal normal 17px/1 FontAwesome;
+    color: #0ebeff;
+    right: 11px;
+    top: 6px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+    border-left: 1px solid #0ebeff;
+    position: absolute;
+    pointer-events: none;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  display: block;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+.success-message {
+  padding: 5px;
+  text-align: center;
+  color:#3EAD68;;
+}
+
+
